@@ -1,0 +1,50 @@
+.header {
+  padding: 10px 20px;
+  background-color: var(--light-color);
+  box-shadow: 0px 1px 29px 0px #0000003b;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5d5656;
+}
+.auth-user-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  user-select: none;
+}
+.user-image {
+  background-color: var(--blue-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.user-name {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.drobDown {
+  position: absolute;
+  bottom: -48px;
+  background: red;
+  padding: 10px 35px;
+  right: -7px;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.drobDown .logout {
+  cursor: pointer;
+}

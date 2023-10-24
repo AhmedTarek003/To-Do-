@@ -1,0 +1,25 @@
+.add {
+  position: fixed;
+  right: 50px;
+  bottom: 90px;
+}
+.add-icon {
+  background-color: var(--blue-color);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  font-size: 27px;
+  cursor: pointer;
+}
+
+/* media queary */
+@media (max-width: 768px) {
+  .add {
+    bottom: 50px;
+    right: 15px;
+  }
+}

@@ -1,0 +1,79 @@
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/particle-lines-futuristic-gradient-background_53876-117189.jpg");
+  background-size: cover;
+}
+.auth-container {
+  width: 34%;
+  background-color: #dae3ff36;
+  padding: 25px 10px;
+  box-shadow: 0px 0px 40px 3px #9d9ec4;
+}
+.auth-page-title {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--blue-color);
+  letter-spacing: 3px;
+}
+.form-auth-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 85%;
+}
+.auth-group-form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.auth-label {
+  color: #11b0ff80;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.auth-input {
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  color: var(--blue-color);
+  background-color: #b7c1e800;
+  border-radius: 12px;
+  box-shadow: 0px 0px 11px 2px #a1a9d2;
+}
+.auth-input::placeholder {
+  color: var(--blue-color);
+}
+.auth-form-btn {
+  width: 36%;
+  margin: auto;
+  padding: 8px;
+  border: none;
+  background-color: #11b0ff80;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.auth-form-btn:hover {
+  background-color: var(--blue-color);
+}
+
+.ask-account {
+  margin-top: 10px;
+}
+
+.go-auth,
+.forget-password {
+  color: var(--blue-color);
+}
+
+/* media query */
+@media (max-width: 868px) {
+  .auth-container {
+    width: 80%;
+  }
+}
